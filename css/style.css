@@ -1,0 +1,117 @@
+header, .Banner{
+    background-color: rgba(116, 216, 116, 0.332);
+}
+.navbar-brand img{
+    width: 150px;
+    height: 80px;
+    object-fit: contain;
+}
+.navbar-expand-lg .navbar-collapse{
+    justify-content: flex-end;
+}
+.nav-link{
+    font-weight: 600;
+    color: black;
+}
+.nav-item{
+    transition: all 0.3s linear;
+    margin-left: 20px;
+}
+.nav-item:hover{
+background-color: green;
+border-radius:35px;
+padding: 0 20px;
+color: white;
+}
+.nav-item:hover .nav-link{
+    color: white;
+}
+.nav-item:last-child{
+background-color: green;
+border-radius:35px;
+padding: 0 20px;
+color: white !important;
+}
+.active {
+    border-bottom: 2px solid green;
+}
+
+.single-card img{
+    height: 100px;
+    width:auto ;
+    object-fit: cover;
+}
+ /* footer  */
+.footer {
+    background: #202020;
+    color: #fff;
+    padding: 50px 0 0;
+    min-height: 286px; }
+    .footer a {
+      color: #fff; }
+      .footer a:hover {
+        color: #E46D2C; }
+    .footer-nav {
+      margin-bottom: 50px; }
+      .footer-nav h4 {
+        font-size: 18px;
+        font-weight: 600;
+        margin: 0 0 15px; }
+        .footer-nav h4 i {
+          display: none; }
+      @media all and (max-width: 767px) {
+        .footer-nav-heading {
+          display: flex;
+          align-items: center;
+          border-bottom: 1px solid #373737;
+          padding-bottom: 5px;
+          margin: 0 0 5px !important;
+          font-size: 16px; }
+          .footer-nav-heading i {
+            margin-left: auto;
+            transition: all 0.3s linear;
+            margin-left: auto;
+            height: 25px;
+            align-items: center;
+            display: inline-flex !important;
+            justify-content: center; }
+          .footer-nav-heading.active i {
+            transform: rotate(180deg); } }
+      .footer-nav p {
+        font-size: 14px;
+        font-weight: normal;
+        line-height: normal; }
+      .footer-nav ul {
+        padding: 0;
+        margin: 0; }
+        .footer-nav ul li a {
+          padding: 7px 0;
+          font-size: 14px;
+          display: block;
+          font-weight: 500; }
+    .footer-btm {
+      color: #606C80;
+      padding: 15px 0;
+      border-top: 1px solid #e7e7eb; }
+      .footer-btm p {
+        font-size: 14px;
+        margin: 0;
+        color: #fff;
+        font-weight: 400; }
+        .footer-btm p a {
+          display: inline-block;
+          margin-left: 15px;
+          color: #606C80; }
+          .footer-btm p a:hover {
+            color: #E46D2C; }
+      .footer-btm ul {
+        padding: 0;
+        margin: 0 auto;
+        display: inline-flex; }
+        .footer-btm ul li {
+          border-radius: 5px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin: 0 5px;
+          font-size: 24px; }
